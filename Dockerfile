@@ -37,7 +37,7 @@ RUN . ledger/bin/activate
 RUN pip3 install ledgerblue
 
 WORKDIR /
-RUN git clone -b sideload https://github.com/mkrufky/blue-app-eth
+RUN git clone -b sideload https://github.com/imjayson/blue-app-eth
 WORKDIR /blue-app-eth
 
 RUN mv Makefile Makefile.genericwallet
